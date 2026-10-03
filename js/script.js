@@ -1,4 +1,5 @@
 'use strict';
+
 // На следующих занятиях здесь можно добавить обработчики учебных событий.
 // Google Tag устанавливается отдельно в head каждой HTML-страницы.
 const form = document.querySelector('#contact-form');
@@ -10,4 +11,3 @@ if (form) {
     form.reset();
   });
 }
-
